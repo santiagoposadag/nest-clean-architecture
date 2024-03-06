@@ -6,7 +6,7 @@ import { Observable, of } from "rxjs";
 @Injectable()
 export class ClientServiceMongo implements ClientRepository {
     saveClient(client: Client): Observable<Client> {
-        console.log('Intentando crear client');
+        console.log('Creating client');
 
         return of(client);
         
